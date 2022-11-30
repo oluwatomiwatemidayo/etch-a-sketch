@@ -3,6 +3,8 @@ body {
 }
 
 #container {
+    display: flex;
+    flex-wrap: wrap;
     height: 269px;
     width: 269px;
     border: 1px solid black;
