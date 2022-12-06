@@ -13,3 +13,9 @@ body {
     width: 288px;
     border: 1px solid black;
 }
+
+.gridDiv {
+    height: 16px;
+    width: 16px;
+    border: 1px solid lightgray;
+}
