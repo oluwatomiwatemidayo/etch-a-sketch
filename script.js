@@ -1,9 +1,9 @@
 const container = document.querySelector('#container');
+let numberOfGrids;
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 256; i++) {
     const gridDiv = document.createElement('div');
     gridDiv.classList.add('gridDiv');
-    gridDiv.style.cssText = 'height: 16px; width: 16px;';
     gridDiv.addEventListener('mouseover', () => {
         gridDiv.style.backgroundColor = 'red';
     });
