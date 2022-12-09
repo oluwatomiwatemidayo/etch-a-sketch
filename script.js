@@ -15,7 +15,7 @@ function createGrid() {
     const container = document.querySelector('#container');
     numberOfGrids = prompt("Enter the number of grids you want between 1 - 100:");
 
-    if (numberOfGrids < 100 && numberOfGrids > 0) {
+    if (numberOfGrids <= 100 && numberOfGrids > 0) {
         for (i = 0; i < numberOfGrids * numberOfGrids; i++) {
             const gridDiv = document.createElement('div');
             gridDiv.classList.add('gridDiv');
